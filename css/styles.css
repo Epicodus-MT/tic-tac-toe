@@ -13,9 +13,18 @@ h3{
 .space {
   border: solid black;
   text-align: center;
+  width: 80px;
+  height:80px;
+  float: left;
+
+  position: relative;
+  left: 40%;
 }
 
-span {
-  font-size: 80px;
-  font-weight: bold;
+.square-x {
+  background-color: red;
+}
+
+.square-o {
+  background-color: blue;
 }
